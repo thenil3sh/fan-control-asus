@@ -1,9 +1,10 @@
 [package]
-name = "zeebus"
+name = "fan-control-asus"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = "4.5.40"
 futures-util = "0.3.31"
 smol = "2.0.2"
 zbus = "5.7.1"
